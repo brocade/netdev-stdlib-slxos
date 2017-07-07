@@ -1,0 +1,28 @@
+{
+  "name": "brocade-netdev_stdlib_slxos",
+  "version": "1.0.0",
+  "author": "Brocade Communications Systems Inc",
+  "summary": "Provider and Type definition (based on netdev_stdlib) for Brocade SLXOS devices",
+  "license": "See LICENSE file",
+  "source": "https://github.com/brocade/netdev-stdlib-slxos.git",
+  "project_page": "https://github.com/brocade/netdev-stdlib-slxos",
+  "issues_url": "https://github.com/brocade/netdev-stdlib-slxos/issues",
+  "dependencies": [
+  
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "SLXOS",
+      "operatingsystemrelease": [
+        "17r.2.x"
+      ]
+    }
+  ],
+  "tags": [
+    "network",
+    "netdev",
+    "brocade",
+    "slxos"
+  ]
+}
