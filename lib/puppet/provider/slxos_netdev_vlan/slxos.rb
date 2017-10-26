@@ -69,7 +69,7 @@ Puppet::Type.type(:slxos_netdev_vlan).provide(:slxos) do
         element.content = vlan
  	ret = false;
 	config = @transport.get_config(builder)
-	val =  config.xpath('//interface')  
+	val =  config.xpath('//vlan')  
 	ret = val.count >0
 
        # if vlan is present check if desc is modified ?
